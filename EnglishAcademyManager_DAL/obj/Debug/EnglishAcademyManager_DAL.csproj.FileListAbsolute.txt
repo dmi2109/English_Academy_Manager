@@ -1,0 +1,12 @@
+C:\Users\maidi\OneDrive\Desktop\English_Academy_Manager\EnglishAcademyManager_DAL\bin\Debug\EnglishAcademyManager_DAL.dll.config
+C:\Users\maidi\OneDrive\Desktop\English_Academy_Manager\EnglishAcademyManager_DAL\bin\Debug\EnglishAcademyManager_DAL.dll
+C:\Users\maidi\OneDrive\Desktop\English_Academy_Manager\EnglishAcademyManager_DAL\bin\Debug\EnglishAcademyManager_DAL.pdb
+C:\Users\maidi\OneDrive\Desktop\English_Academy_Manager\EnglishAcademyManager_DAL\bin\Debug\EntityFramework.dll
+C:\Users\maidi\OneDrive\Desktop\English_Academy_Manager\EnglishAcademyManager_DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\maidi\OneDrive\Desktop\English_Academy_Manager\EnglishAcademyManager_DAL\bin\Debug\EntityFramework.xml
+C:\Users\maidi\OneDrive\Desktop\English_Academy_Manager\EnglishAcademyManager_DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\maidi\OneDrive\Desktop\English_Academy_Manager\EnglishAcademyManager_DAL\obj\Debug\EnglishAcademyManager_DAL.csproj.AssemblyReference.cache
+C:\Users\maidi\OneDrive\Desktop\English_Academy_Manager\EnglishAcademyManager_DAL\obj\Debug\EnglishAcademyManager_DAL.csproj.CoreCompileInputs.cache
+C:\Users\maidi\OneDrive\Desktop\English_Academy_Manager\EnglishAcademyManager_DAL\obj\Debug\EnglishA.CF2EE8A0.Up2Date
+C:\Users\maidi\OneDrive\Desktop\English_Academy_Manager\EnglishAcademyManager_DAL\obj\Debug\EnglishAcademyManager_DAL.dll
+C:\Users\maidi\OneDrive\Desktop\English_Academy_Manager\EnglishAcademyManager_DAL\obj\Debug\EnglishAcademyManager_DAL.pdb
