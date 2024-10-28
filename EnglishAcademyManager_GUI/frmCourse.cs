@@ -25,6 +25,7 @@ namespace EnglishAcademyManager_GUI
         {
             InitializeComponent();
             _context = new EnglishAcademyDbContext();
+            setGridViewStyle(dgvCourses);
             LoadCourses();
         }
 
@@ -53,7 +54,15 @@ namespace EnglishAcademyManager_GUI
             }
         }
 
-
+        public void setGridViewStyle(DataGridView dgview)
+        {
+            dgview.BorderStyle = BorderStyle.None;
+            dgview.DefaultCellStyle.SelectionBackColor = Color.Lavender;
+            dgview.DefaultCellStyle.SelectionForeColor = Color.Black;
+            dgview.CellBorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
+            dgview.BackgroundColor = Color.Lavender;
+            dgview.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+        }
 
         //private void LoadLevels()
         //{

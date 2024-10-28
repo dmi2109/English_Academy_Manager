@@ -175,6 +175,9 @@
     <EmbeddedResource Include="frmAddReceipt.resx">
       <DependentUpon>frmAddReceipt.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmAttendance.resx">
+      <DependentUpon>frmAttendance.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmClasses.resx">
       <DependentUpon>frmClasses.cs</DependentUpon>
     </EmbeddedResource>

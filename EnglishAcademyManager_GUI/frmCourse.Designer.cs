@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.lblCourseInfor = new System.Windows.Forms.Label();
             this.lblCourseID = new System.Windows.Forms.Label();
             this.txtCourseName = new System.Windows.Forms.TextBox();
             this.btnAdd = new System.Windows.Forms.Button();
@@ -50,24 +49,11 @@
             this.cmbLevelSearch = new System.Windows.Forms.ComboBox();
             this.btnPrevious = new System.Windows.Forms.Button();
             this.btnNext = new System.Windows.Forms.Button();
+            this.lblTitle = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.err)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCourses)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // lblCourseInfor
-            // 
-            this.lblCourseInfor.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblCourseInfor.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCourseInfor.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblCourseInfor.Location = new System.Drawing.Point(4, 0);
-            this.lblCourseInfor.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblCourseInfor.Name = "lblCourseInfor";
-            this.lblCourseInfor.Size = new System.Drawing.Size(209, 45);
-            this.lblCourseInfor.TabIndex = 13;
-            this.lblCourseInfor.Text = "Thông Tin Khóa Học";
             // 
             // lblCourseID
             // 
@@ -77,24 +63,23 @@
             this.lblCourseID.AutoSize = true;
             this.lblCourseID.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCourseID.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblCourseID.Location = new System.Drawing.Point(4, 45);
+            this.lblCourseID.Location = new System.Drawing.Point(4, 0);
             this.lblCourseID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCourseID.Name = "lblCourseID";
-            this.lblCourseID.Size = new System.Drawing.Size(209, 45);
+            this.lblCourseID.Size = new System.Drawing.Size(127, 42);
             this.lblCourseID.TabIndex = 8;
             this.lblCourseID.Text = "Mã Khóa Học";
             // 
             // txtCourseName
             // 
-            this.txtCourseName.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtCourseName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.txtCourseName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCourseName.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtCourseName.Location = new System.Drawing.Point(221, 94);
-            this.txtCourseName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCourseName.Location = new System.Drawing.Point(712, 4);
+            this.txtCourseName.Margin = new System.Windows.Forms.Padding(4);
             this.txtCourseName.Name = "txtCourseName";
-            this.txtCourseName.Size = new System.Drawing.Size(349, 28);
+            this.txtCourseName.Size = new System.Drawing.Size(376, 28);
             this.txtCourseName.TabIndex = 1;
             // 
             // btnAdd
@@ -102,7 +87,7 @@
             this.btnAdd.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnAdd.AutoSize = true;
             this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdd.Location = new System.Drawing.Point(689, 669);
+            this.btnAdd.Location = new System.Drawing.Point(713, 687);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(123, 32);
             this.btnAdd.TabIndex = 44;
@@ -116,7 +101,7 @@
             this.txtSearch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.txtSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSearch.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtSearch.Location = new System.Drawing.Point(747, 285);
+            this.txtSearch.Location = new System.Drawing.Point(770, 162);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(206, 28);
             this.txtSearch.TabIndex = 47;
@@ -126,7 +111,7 @@
             this.btnDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnDelete.AutoSize = true;
             this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelete.Location = new System.Drawing.Point(846, 669);
+            this.btnDelete.Location = new System.Drawing.Point(870, 687);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(92, 32);
             this.btnDelete.TabIndex = 45;
@@ -137,15 +122,14 @@
             // 
             // txtCourseID
             // 
-            this.txtCourseID.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtCourseID.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.txtCourseID.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCourseID.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtCourseID.Location = new System.Drawing.Point(221, 49);
-            this.txtCourseID.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCourseID.Location = new System.Drawing.Point(139, 4);
+            this.txtCourseID.Margin = new System.Windows.Forms.Padding(4);
             this.txtCourseID.Name = "txtCourseID";
-            this.txtCourseID.Size = new System.Drawing.Size(349, 28);
+            this.txtCourseID.Size = new System.Drawing.Size(380, 28);
             this.txtCourseID.TabIndex = 0;
             // 
             // lblLastName
@@ -156,10 +140,10 @@
             this.lblLastName.AutoSize = true;
             this.lblLastName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLastName.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblLastName.Location = new System.Drawing.Point(4, 90);
+            this.lblLastName.Location = new System.Drawing.Point(573, 0);
             this.lblLastName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLastName.Name = "lblLastName";
-            this.lblLastName.Size = new System.Drawing.Size(209, 45);
+            this.lblLastName.Size = new System.Drawing.Size(131, 42);
             this.lblLastName.TabIndex = 6;
             this.lblLastName.Text = "Tên Khóa Học";
             // 
@@ -171,10 +155,10 @@
             this.lblLevel.AutoSize = true;
             this.lblLevel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLevel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblLevel.Location = new System.Drawing.Point(4, 135);
+            this.lblLevel.Location = new System.Drawing.Point(4, 42);
             this.lblLevel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLevel.Name = "lblLevel";
-            this.lblLevel.Size = new System.Drawing.Size(209, 43);
+            this.lblLevel.Size = new System.Drawing.Size(127, 42);
             this.lblLevel.TabIndex = 4;
             this.lblLevel.Text = "Cấp độ";
             // 
@@ -186,7 +170,7 @@
             // 
             this.btnSearch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSearch.Location = new System.Drawing.Point(967, 283);
+            this.btnSearch.Location = new System.Drawing.Point(991, 160);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(98, 30);
             this.btnSearch.TabIndex = 48;
@@ -204,11 +188,11 @@
             this.dgvCourses.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvCourses.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvCourses.GridColor = System.Drawing.Color.AliceBlue;
-            this.dgvCourses.Location = new System.Drawing.Point(60, 322);
+            this.dgvCourses.Location = new System.Drawing.Point(25, 218);
             this.dgvCourses.Name = "dgvCourses";
             this.dgvCourses.RowHeadersWidth = 51;
             this.dgvCourses.RowTemplate.Height = 24;
-            this.dgvCourses.Size = new System.Drawing.Size(1005, 332);
+            this.dgvCourses.Size = new System.Drawing.Size(1063, 445);
             this.dgvCourses.TabIndex = 50;
             this.dgvCourses.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCourses_CellClick);
             // 
@@ -217,7 +201,7 @@
             this.btnUpdate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnUpdate.AutoSize = true;
             this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdate.Location = new System.Drawing.Point(958, 669);
+            this.btnUpdate.Location = new System.Drawing.Point(981, 687);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(107, 32);
             this.btnUpdate.TabIndex = 46;
@@ -230,42 +214,37 @@
             this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel1.ColumnCount = 4;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.17425F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.1442F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 6.992245F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 39.68931F));
-            this.tableLayoutPanel1.Controls.Add(this.btnExportExcel, 3, 0);
-            this.tableLayoutPanel1.Controls.Add(this.lblCourseInfor, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.txtFee, 1, 4);
-            this.tableLayoutPanel1.Controls.Add(this.lblCourseID, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.lblFee, 0, 4);
-            this.tableLayoutPanel1.Controls.Add(this.txtCourseName, 1, 2);
-            this.tableLayoutPanel1.Controls.Add(this.lblLastName, 0, 2);
-            this.tableLayoutPanel1.Controls.Add(this.lblLevel, 0, 3);
-            this.tableLayoutPanel1.Controls.Add(this.cmbLevel, 1, 3);
-            this.tableLayoutPanel1.Controls.Add(this.txtCourseID, 1, 1);
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.04282F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 38.71543F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.39964F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 36.7529F));
+            this.tableLayoutPanel1.Controls.Add(this.lblCourseID, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.txtCourseID, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.lblLastName, 2, 0);
+            this.tableLayoutPanel1.Controls.Add(this.txtCourseName, 3, 0);
+            this.tableLayoutPanel1.Controls.Add(this.lblLevel, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.cmbLevel, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.lblFee, 2, 1);
+            this.tableLayoutPanel1.Controls.Add(this.txtFee, 3, 1);
             this.tableLayoutPanel1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.tableLayoutPanel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(21, 51);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 60);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 5;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 19.89483F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 19.89483F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 19.89483F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 19.28133F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21.03418F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1078, 227);
+            this.tableLayoutPanel1.RowCount = 2;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 24.83589F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 24.83589F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1121, 84);
             this.tableLayoutPanel1.TabIndex = 49;
             // 
             // btnExportExcel
             // 
-            this.btnExportExcel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnExportExcel.AutoSize = true;
             this.btnExportExcel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExportExcel.Location = new System.Drawing.Point(916, 3);
+            this.btnExportExcel.Location = new System.Drawing.Point(25, 163);
             this.btnExportExcel.Name = "btnExportExcel";
-            this.btnExportExcel.Size = new System.Drawing.Size(159, 38);
+            this.btnExportExcel.Size = new System.Drawing.Size(159, 34);
             this.btnExportExcel.TabIndex = 53;
             this.btnExportExcel.Text = "Xuất file";
             this.btnExportExcel.UseVisualStyleBackColor = true;
@@ -273,15 +252,14 @@
             // 
             // txtFee
             // 
-            this.txtFee.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtFee.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.txtFee.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFee.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtFee.Location = new System.Drawing.Point(221, 182);
-            this.txtFee.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtFee.Location = new System.Drawing.Point(712, 46);
+            this.txtFee.Margin = new System.Windows.Forms.Padding(4);
             this.txtFee.Name = "txtFee";
-            this.txtFee.Size = new System.Drawing.Size(349, 28);
+            this.txtFee.Size = new System.Drawing.Size(376, 28);
             this.txtFee.TabIndex = 3;
             // 
             // lblFee
@@ -292,51 +270,50 @@
             this.lblFee.AutoSize = true;
             this.lblFee.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFee.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblFee.Location = new System.Drawing.Point(4, 178);
+            this.lblFee.Location = new System.Drawing.Point(573, 42);
             this.lblFee.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFee.Name = "lblFee";
-            this.lblFee.Size = new System.Drawing.Size(209, 49);
+            this.lblFee.Size = new System.Drawing.Size(131, 42);
             this.lblFee.TabIndex = 0;
             this.lblFee.Text = "Học phí";
             // 
             // cmbLevel
             // 
-            this.cmbLevel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.cmbLevel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.cmbLevel.FormattingEnabled = true;
             this.cmbLevel.Items.AddRange(new object[] {
             "Beginner",
             "Intermediate",
             "Advanced"});
-            this.cmbLevel.Location = new System.Drawing.Point(220, 137);
+            this.cmbLevel.Location = new System.Drawing.Point(138, 44);
             this.cmbLevel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmbLevel.Name = "cmbLevel";
-            this.cmbLevel.Size = new System.Drawing.Size(351, 30);
+            this.cmbLevel.Size = new System.Drawing.Size(381, 30);
             this.cmbLevel.TabIndex = 14;
             // 
             // cmbLevelSearch
             // 
-            this.cmbLevelSearch.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.cmbLevelSearch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.cmbLevelSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbLevelSearch.FormattingEnabled = true;
             this.cmbLevelSearch.Items.AddRange(new object[] {
             "All",
             "Beginner",
             "Intermediate",
             "Advanced"});
-            this.cmbLevelSearch.Location = new System.Drawing.Point(521, 289);
+            this.cmbLevelSearch.Location = new System.Drawing.Point(541, 162);
             this.cmbLevelSearch.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmbLevelSearch.Name = "cmbLevelSearch";
-            this.cmbLevelSearch.Size = new System.Drawing.Size(212, 24);
+            this.cmbLevelSearch.Size = new System.Drawing.Size(212, 28);
             this.cmbLevelSearch.TabIndex = 15;
             // 
             // btnPrevious
             // 
-            this.btnPrevious.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnPrevious.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnPrevious.AutoSize = true;
             this.btnPrevious.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPrevious.Location = new System.Drawing.Point(60, 669);
+            this.btnPrevious.Location = new System.Drawing.Point(24, 687);
             this.btnPrevious.Name = "btnPrevious";
             this.btnPrevious.Size = new System.Drawing.Size(100, 32);
             this.btnPrevious.TabIndex = 51;
@@ -347,10 +324,10 @@
             // 
             // btnNext
             // 
-            this.btnNext.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnNext.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnNext.AutoSize = true;
             this.btnNext.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNext.Location = new System.Drawing.Point(184, 669);
+            this.btnNext.Location = new System.Drawing.Point(148, 687);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(99, 32);
             this.btnNext.TabIndex = 52;
@@ -359,13 +336,26 @@
             this.btnNext.UseVisualStyleBackColor = true;
             this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
+            // lblTitle
+            // 
+            this.lblTitle.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.Location = new System.Drawing.Point(0, 0);
+            this.lblTitle.Name = "lblTitle";
+            this.lblTitle.Size = new System.Drawing.Size(1121, 56);
+            this.lblTitle.TabIndex = 60;
+            this.lblTitle.Text = "THÔNG TIN KHÓA HỌC";
+            this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // frmCourse
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(1121, 742);
+            this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.btnNext);
+            this.Controls.Add(this.btnExportExcel);
             this.Controls.Add(this.btnPrevious);
             this.Controls.Add(this.cmbLevelSearch);
             this.Controls.Add(this.btnAdd);
@@ -388,7 +378,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.Label lblCourseInfor;
         private System.Windows.Forms.Label lblCourseID;
         private System.Windows.Forms.TextBox txtCourseName;
         private System.Windows.Forms.Button btnAdd;
@@ -409,5 +398,6 @@
         private System.Windows.Forms.Button btnPrevious;
         private System.Windows.Forms.Button btnNext;
         private System.Windows.Forms.Button btnExportExcel;
+        private System.Windows.Forms.Label lblTitle;
     }
 }

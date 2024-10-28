@@ -40,13 +40,13 @@ namespace EnglishAcademyManager_GUI
                 .Select(c => new
                 {
                     c.class_id,
-                    c.class_name
+                    Display = c.class_id + ":" + c.class_name
                 })
                 .Distinct()
                 .ToList();
 
             cmbClasses.DataSource = classes;
-            cmbClasses.DisplayMember = "class_name";
+            cmbClasses.DisplayMember = "Display";
             cmbClasses.ValueMember = "class_id";
         }
 

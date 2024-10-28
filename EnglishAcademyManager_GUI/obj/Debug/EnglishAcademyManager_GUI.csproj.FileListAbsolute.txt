@@ -28,3 +28,5 @@ C:\Users\maidi\OneDrive\Desktop\English_Academy_Manager\EnglishAcademyManager_GU
 C:\Users\maidi\OneDrive\Desktop\English_Academy_Manager\EnglishAcademyManager_GUI\obj\Debug\EnglishAcademyManager_GUI.exe
 C:\Users\maidi\OneDrive\Desktop\English_Academy_Manager\EnglishAcademyManager_GUI\obj\Debug\EnglishAcademyManager_GUI.pdb
 C:\Users\maidi\OneDrive\Desktop\English_Academy_Manager\EnglishAcademyManager_GUI\obj\Debug\EnglishAcademyManager_GUI.frmReceipt.resources
+C:\Users\maidi\OneDrive\Desktop\English_Academy_Manager\EnglishAcademyManager_GUI\obj\Debug\EnglishAcademyManager_GUI.frmCourse.resources
+C:\Users\maidi\OneDrive\Desktop\English_Academy_Manager\EnglishAcademyManager_GUI\obj\Debug\EnglishAcademyManager_GUI.frmAttendance.resources
